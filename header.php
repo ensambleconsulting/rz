@@ -108,23 +108,27 @@ if(is_plugin_active('woocommerce/woocommerce.php')) {
 							} 
 						?>
 
+<!--
 						<ul class="top-right-links">
 						
-						<!--	
-							<li class="my-account-link"><a href="<?php echo esc_url($myaccount_page_url); ?>"><?php _e('My Account','qns'); ?></a></li>
+					 
+						<li class="my-account-link"><a href="<?php  echo esc_url($myaccount_page_url); ?>"><?php _e('My Account','qns'); ?></a></li>
 						
-							<li class="check-out-link"><a href="<?php echo esc_url($woocommerce->cart->get_checkout_url()); ?>"><?php _e('Check Out','qns'); ?></a></li>
+							<li class="check-out-link"><a href="<?php  echo esc_url($woocommerce->cart->get_checkout_url()); ?>"><?php _e('Check Out','qns'); ?></a></li>
 
 							<?php // if ( is_user_logged_in() ) {
 							//	echo '<li class="logout-icon"><a href="' . esc_url(wp_logout_url(home_url())) . '">' . __('Logout','qns') . '</a></li>';
 							} ?>
-							-->
-							<li href="<?php echo esc_url( get_permalink(170) ); ?>" ><?php _e('Consulte por estos productos :); ?></li>
-
+						
 						</ul>	
 
-					<?php } ?>
-				
+					<?php // } ?>
+	-->
+
+				<ul class="top-right-links">
+					<li href="<?php esc_url( get_permalink(170) ); ?>" > <?php _e('Consulte por estos productos :'); ?> </li>
+				</ul>
+
 				<!-- END .top-bar-wrapper -->
 				</div>
 			
