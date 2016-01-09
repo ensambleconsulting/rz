@@ -101,7 +101,7 @@ if(is_plugin_active('woocommerce/woocommerce.php')) {
 <!-- BEGIN .mobile-menu-inner -->
 <div class="mobile-menu-inner">
 	
-	<h3><?php _e('Productos para su consulta:','qns'); ?></h3>
+	<h3><?php _e('Su consulta:','qns'); ?></h3>
 	<div class="widget_shopping_cart_content"></div>
 
 <!-- END .mobile-menu-inner -->
